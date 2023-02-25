@@ -10,6 +10,7 @@ function myFunction() {
 
 
 function makeGetRequest(pages) { 
+	myFunction() 
 
    var path = "https://www.reddit.com/r/"+pages+".json"
  
